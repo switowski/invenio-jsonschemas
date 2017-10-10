@@ -66,7 +66,6 @@ install_requires = [
 
 packages = find_packages()
 
-
 # Get the version string. Cannot be done with import!
 g = {}
 with open(os.path.join('invenio_jsonschemas', 'version.py'), 'rt') as fp:
